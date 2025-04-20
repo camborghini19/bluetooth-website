@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A scroll-driven, interactive guide to how Bluetooth technology works." />
+  <title>How Bluetooth Works</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Bluetooth Technology</h1>
+    <p>A Scroll-Powered Guide to Wireless Connectivity</p>
+  </header>
+
+  <main>
+    <!-- Scene 1 -->
+    <section class="scene fade-in">
+      <div class="content">
+        <h2>What is Bluetooth?</h2>
+        <p>Bluetooth is a short-range wireless technology that connects devices using radio waves in the 2.4 GHz frequency band.</p>
+      </div>
+    </section>
+
+    <!-- Scene 2 (Animated Image) -->
+    <section class="scene image-scene">
+      <img src="diagram.png" alt="Bluetooth Communication Diagram" class="diagram" />
+    </section>
+
+    <!-- Scene 3 -->
+    <section class="scene fade-in">
+      <div class="content">
+        <h2>Step-by-Step Process</h2>
+        <ol>
+          <li><strong>Discovery:</strong> Devices search using inquiry scanning.</li>
+          <li><strong>Pairing:</strong> Secure authentication is established.</li>
+          <li><strong>Piconet:</strong> One master connects with up to 7 slaves.</li>
+          <li><strong>Data Transfer:</strong> FHSS rapidly switches channels.</li>
+          <li><strong>BLE:</strong> Bluetooth Low Energy reduces power usage.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Scene 4 -->
+    <section class="scene fade-in dark">
+      <div class="content">
+        <h2>Key Concepts</h2>
+        <ul>
+          <li><strong>Piconet:</strong> Mini-network with one master.</li>
+          <li><strong>Scatternet:</strong> Multiple piconets interconnected.</li>
+          <li><strong>FHSS:</strong> Frequency-hopping to avoid interference.</li>
+          <li><strong>BLE:</strong> Designed for ultra-low power usage.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
